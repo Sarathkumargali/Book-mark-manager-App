@@ -1,0 +1,9 @@
+{
+  "name": "bookmark-manager-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend Mentor Bookmark Manager app",
+  "scripts": {
+    "start": "npx serve starter-code -l 5503"
+  }
+}
