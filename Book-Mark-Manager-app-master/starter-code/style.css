@@ -131,6 +131,8 @@ body {
   width: 100%;
   font-size: 14px;
   font-family: inherit;
+  letter-spacing: 1.10px;
+  margin-left: 8px;
 }
 .user-profile {
   display: flex;
@@ -153,6 +155,12 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+.bookmark-section::-webkit-scrollbar {
+  display: none;
 }
 .filter-section {
   display: flex;
@@ -178,6 +186,7 @@ body {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 .bookmark-card {
   max-width: 352px;
@@ -192,6 +201,7 @@ body {
   flex-direction: column;
   padding: 16px;
   gap: 16px;
+  flex: 1;
 }
 .card-header {
   display: flex;
@@ -279,28 +289,36 @@ body {
   justify-content: space-between;
   padding: 16px 24px;
   border-top: 1px solid #e8f0ef;
+  margin-top: auto;
 }
 
 .card-details {
   display: flex;
   align-items: center;
   gap: 16px;
+  min-width: 0;
 }
 
-.footer {
+.footer-item {
   display: flex;
   align-items: center;
   gap: 6px;
   color: #5f6c6b;
+  font-family: "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
+  white-space: nowrap;
 }
 
+.footer-item img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
 .card-status {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
-
