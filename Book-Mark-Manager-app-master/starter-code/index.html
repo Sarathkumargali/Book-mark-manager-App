@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <h1>Book-mark-manager</h1>
-    <h2>SARATHKUMARGALI</h2>
 
     <link
       rel="icon"
@@ -34,158 +32,7 @@
         </div>
         <div class="sidebar-tags">
           <label class="tags-label" for="">TAGS</label>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>AI</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Community</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Compatibility</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>CSS</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Design</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>FrameWork</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Git</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>HTML</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>javascript</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Layout</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Learning</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Perfomance</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Practice</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Reference</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Tips</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Tools</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
-          </div>
-          <div class="tag-item">
-            <div class="tag-item-cnt">
-              <input type="checkbox" />
-              <span>Tutorial</span>
-            </div>
-            <div class="tag-item-count">
-              <span>1</span>
-            </div>
+          <div class="sidebar-container" id="sidebarContainer">
           </div>
         </div>
       </aside>
@@ -193,7 +40,7 @@
         <header class="topbar">
           <div class="search-bar">
             <img src="./assets/images/icon-search.svg" alt="" />
-            <input type="text" placeholder="Search by title..." />
+            <input type="text" placeholder="Search by title..."  id="searchInput"/>
           </div>
           <div class="user-profile">
             <div class="add-bookmark">
@@ -213,64 +60,11 @@
               </button>
             </div>
           </div>
-          <div class="bookmark-container">
-            <div class="bookmark-card">
-              <div class="card-main-cnt">
-                <div class="card-header">
-                  <div class="card-logo">
-                    <div class="org-logo">
-                      <img
-                        src="./assets/images/favicon-frontend-mentor.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="org-title">
-                      <h3>Frontend Mentor</h3>
-                      <span>frontendmentor.io</span>
-                    </div>
-                  </div>
-                  <div class="edit-dtls">
-                    <img src="./assets/images/icon-menu-bookmark.svg" alt="" />
-                  </div>
-                </div>
-                <div class="card-content">
-                  <p>
-                    Improve your front-end coding skills by building real
-                    projects. Solve real-world HTML, CSS and JavaScript
-                    challenges whilst working to professional designs.
-                  </p>
-                </div>
-                 <div class="card-tags">
-                    <span class="tag">Practice</span>
-                    <span class="tag">Learning</span>
-                    <span class="tag">Community</span>
-                  </div>
-              </div>
-              <div class="card-footer">
-                <div class="card-details">
-                  <div class="footer card-view-count">
-                    <img src="./assets/images/icon-visit-count.svg" alt="">
-                    <span>45</span>
-                  </div>
-                  <div class="footer card-last-seen">
-                    <img src="./assets/images/icon-last-visited.svg" alt="">
-                    <span>23 Mar</span>
-                    <span>I am coming back man , get ready</span>
-                  </div>
-                  <div class="footer card-published">
-                    <img src="./assets/images/icon-created.svg" alt="">
-                    <span>24 Jun</span>
-                    <span>24 Jun</span>
-                  </div>
-                </div>
-                <div class="card-status">
-                  <img src="./assets/images/icon-pin.svg" alt="">
-                </div>
-              </div>
-            </div>
+          <div class="bookmark-container" id="bookmarkContainer">
           </div>
         </section>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
