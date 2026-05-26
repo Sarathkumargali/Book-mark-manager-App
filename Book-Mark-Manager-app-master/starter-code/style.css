@@ -166,14 +166,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 .filter-section h3 {
   font-size: 24px;
   font-weight: 550;
- flex-wrap: wrap;
-
-
+  flex-wrap: wrap;
+padding: left 2px;
 }
 .sortBy-btn {
   padding: 8px 16px;
@@ -206,7 +204,6 @@ body {
   padding: 16px;
   gap: 16px;
   flex: 1;
-
 }
 .card-header {
   display: flex;
@@ -214,7 +211,6 @@ body {
   align-items: flex-start;
   padding-bottom: 16px;
   border-bottom: 1px solid #e8f0ef;
-  
 }
 .card-logo {
   display: flex;
@@ -233,6 +229,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
+
 }
 .org-logo img {
   width: 100%;
@@ -244,13 +241,15 @@ body {
   font-weight: 700;
   line-height: 1.25;
   color: #0f1f1e;
+  
 }
 .org-title span {
   font-family: "Manrope", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.4;
   color: #5f6c6b;
+
 }
 .edit-dtls {
   border: 1px grey solid;
@@ -267,7 +266,6 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #526261;
-  
 }
 .card-tags {
   display: flex;
@@ -329,6 +327,6 @@ body {
   justify-content: center;
   flex-shrink: 0;
 }
-h3{
-  margin-right:50px;
+h3 {
+  margin-right: 50px;
 }
